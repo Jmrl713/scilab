@@ -1,14 +1,15 @@
 xy = 'Yes';
 while xy == 'Yes';
 
-
 disp("WELCOME TO FORTUNE COOKIE$");
 halt('Press Enter to get a cookie');
 halt('Cookie tasted alright, now press Enter again to read your fortune');
 
-a=1;
-b=22;
-n=getdate("s");
+// explanation for formula https://www.mathworks.com/matlabcentral/answers/383378-how-do-i-generate-a-random-number-between-two-numbers
+
+a=1; 
+b=22; 
+n=getdate("s"); 
 r = a + (b-a)*rand(n);
 z=round(r);
 
